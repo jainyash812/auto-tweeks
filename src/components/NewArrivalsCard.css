@@ -1,0 +1,46 @@
+.newarrivals-card-container{
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+    text-align: center;
+    .newarrivals-product-image{
+        width:45%;
+        object-fit: cover;
+        padding: 2rem 0;
+    }
+    .newarrivals-content-container{
+        text-align: left;
+        background-color: white;
+        width: 100%;
+        /* height: 10rem; */
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        .newarrivals-card-title{
+            text-transform: uppercase;
+            font-size: 1.3rem;
+        }
+        .newarrivals-card-price{
+            color:red;
+            font-weight: bold;
+        }
+        .newarrivals-btn{
+            background: #fecd06;
+            outline: none;
+            border-radius: 1rem;
+            border:2px solid #fecd06;
+            display: flex;
+            justify-content: center;
+            /* text-align: center; */
+            align-items: center;
+            gap: 0.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1rem;
+            padding:0 auto;
+            width: 90%;
+        }
+    }
+}
