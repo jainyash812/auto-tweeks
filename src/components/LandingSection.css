@@ -1,0 +1,65 @@
+.landing-section-container{
+    position: relative;
+    .landing-section-header-container{
+        position: absolute;
+        bottom: 50%;
+        top:30%;
+        z-index: 1;
+        margin-left: 10%;
+        color:white;
+        /* width: 500px; */
+        width: 40rem;
+        .landing-section-header-title{
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+
+        .landing-section-header-subTitle{
+            font-size: 1rem;
+        }
+
+        .landing-section-button{
+            border-radius: 1rem;
+            background-color: black;
+            color: white;
+            outline:none;
+            border:2px solid black;
+            vertical-align: middle;
+            padding: 0.5rem;
+            text-transform: uppercase;
+            font-size: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap:1rem;
+        }
+        svg{
+            transform: scale(2);
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .landing-section-bg-image{
+        height: 60vh !important;
+    }
+    .landing-section-header-container{
+        width:25rem !important;
+    }
+    .landing-section-header-title{
+        font-size: 1.5rem !important;
+    }
+
+    .landing-section-header-subTitle{
+        font-size: 0.75rem  !important;
+    }
+    .landing-section-button{
+        font-size: 0.75rem !important;
+    }
+  }
+

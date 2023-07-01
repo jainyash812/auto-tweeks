@@ -1,0 +1,20 @@
+.navbar-container{
+    .navbar{
+        padding:0 1rem;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .nav-item{
+        padding:1rem 0.5rem;
+        min-width: 10rem;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-link {
+        color:white
+    }
+    .nav-item:hover{
+        background: red;
+    }
+}
