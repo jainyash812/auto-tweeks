@@ -23,21 +23,25 @@ function NewArrivalsCarousel() {
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 1024 },
-          items: 4,
+          items: 5,
           //partialVisibilityGutter: 40
         },
         desktop: {
-          breakpoint: { max: 1024, min: 700 },
+          breakpoint: { max: 1024, min: 1168 },
           items: 3,
           //partialVisibilityGutter: 40
         },
         tablet: {
-          breakpoint: { max: 700, min: 464 },
-          items: 2
+          breakpoint: { max: 1168, min: 800 },
+          items: 4
         },
         mobile: {
-          breakpoint: { max: 470, min: 0 },
-          items: 1
+          breakpoint: { max: 800, min: 616 },
+          items: 3
+        },
+        mobile1: {
+          breakpoint: { max: 616, min: 0 },
+          items: 2,
         }
       };
     // const [isMobile,setIsMobile] = useState(false)

@@ -1,0 +1,31 @@
+.best-sellers-container{
+    background: no-repeat center/100% url('../../assets/best-seller.png');
+    /* overflow: auto; */
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+    .react-multi-carousel-list{
+        height:100%;
+        .react-multi-carousel-track{
+            gap:1rem;
+        }
+    }
+
+    .best-sellers-wrapper{
+        margin:0 2rem;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bestseller-card-container{
+        width: 100% !important;
+    }
+    .react-multi-carousel-item{
+        width:200px !important;
+    }
+}
