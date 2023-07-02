@@ -4,6 +4,7 @@
         position: absolute;
         bottom: 50%;
         top:30%;
+        transform: translate(-5%,-50%);
         z-index: 1;
         margin-left: 10%;
         color:white;
@@ -49,7 +50,7 @@
         height: 60vh !important;
     }
     .landing-section-header-container{
-        width:25rem !important;
+        width:16rem !important;
     }
     .landing-section-header-title{
         font-size: 1.5rem !important;
